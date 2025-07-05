@@ -1,0 +1,3599 @@
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="320" y="20" width="100" height="20" uuid="7eeacb0d-7415-430c-b636-88c83d5d58a9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName1}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="320" y="40" width="50" height="20" uuid="9fa9a5a8-df4a-4cd7-851a-da76b5a105da"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="370" y="40" width="50" height="20" uuid="b09c1128-551f-4edd-a73a-2f488e94c884"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="420" y="20" width="100" height="20" uuid="448951c5-7482-40c5-8e6e-048040d1e11b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName2}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="420" y="40" width="50" height="20" uuid="6098b7a6-e651-4b71-a5bb-4bf720b36b5e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="470" y="40" width="50" height="20" uuid="20338c0b-f1d9-4396-a43e-d91ca85d771c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="520" y="20" width="100" height="20" uuid="3a232e3d-f6ea-4a9d-9614-71bfd68ac8b0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName3}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="520" y="40" width="50" height="20" uuid="55601ae1-67b6-4adb-b2a2-ec877edf05e7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="570" y="40" width="50" height="20" uuid="36e7675d-2dbd-498c-a3de-5c48bdae2659"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="620" y="20" width="100" height="20" uuid="ecb0c027-f179-49c3-9a7c-853393920131"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName4}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="620" y="40" width="50" height="20" uuid="05dd6861-bc6b-4eb0-b10f-19ea35ac4124"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="670" y="40" width="50" height="20" uuid="9979d84c-549d-4b30-a664-b9eb5e6e5a0d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="720" y="20" width="100" height="20" uuid="0b8cfe9e-68ff-4790-ae88-56fab95f7f38"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName5}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="720" y="40" width="50" height="20" uuid="4115ba5a-0c8f-4577-807d-2f4c64a23bd0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="770" y="40" width="50" height="20" uuid="d4745114-42ec-4d53-b9c5-2cc7c41ea6bf"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="820" y="20" width="100" height="20" uuid="bb31014c-2787-413d-8552-4b09b6c4b75c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName6}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="820" y="40" width="50" height="20" uuid="776651a5-40a3-43c3-963a-d08b741809b9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="870" y="40" width="50" height="20" uuid="55b1c197-671b-463e-a07a-78b66c987ec1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="920" y="20" width="100" height="20" uuid="f21d1295-5e63-4d2b-a475-a15d4a697adb"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName7}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="920" y="40" width="50" height="20" uuid="ab8681fe-6b46-4b4b-b00b-da4907ebd4d3"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="970" y="40" width="50" height="20" uuid="e131fc17-9f02-4341-9d70-a45723fb3470"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1020" y="20" width="100" height="20" uuid="4b85da72-067e-402f-94e5-62ec978e07fb"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName8}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1020" y="40" width="50" height="20" uuid="35c6258c-7ef3-4fb6-b9b2-8c14221033b3"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1070" y="40" width="50" height="20" uuid="5c7e7a86-c43d-4d4b-a8bd-e2e22ea9e7f8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1120" y="20" width="100" height="20" uuid="3c5d946c-e55c-404e-a1b4-81d775b59cb6"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName9}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1120" y="40" width="50" height="20" uuid="b35f17fd-3f8e-485d-a894-caeb16064376"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1170" y="40" width="50" height="20" uuid="1de73f89-0061-4904-9363-2895b6b4b852"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1220" y="20" width="100" height="20" uuid="f71b754b-df7c-4b29-9608-2e6613b8a678"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName10}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1220" y="40" width="50" height="20" uuid="4974b802-57c4-42da-bed7-a2af11eda6cf"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1270" y="40" width="50" height="20" uuid="b77aec8c-143d-42b7-868c-6340d3c981f0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1320" y="20" width="100" height="20" uuid="e8d2ba18-2352-4e2d-98eb-85a664543feb"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName11}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1320" y="40" width="50" height="20" uuid="f9cffb95-4678-4591-ba39-9c8e3d639178"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1370" y="40" width="50" height="20" uuid="3f56e6b3-f8b7-4952-8a7f-7b691becd1c5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1420" y="20" width="100" height="20" uuid="1ce18769-e0b8-404f-9a8e-5c75f630c6e8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName12}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1420" y="40" width="50" height="20" uuid="e3c21557-8ca5-4646-beb5-aad07da0e816"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1470" y="40" width="50" height="20" uuid="d3e26c91-33e5-44bd-80a4-8706ff0edfdc"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1520" y="20" width="100" height="20" uuid="32b3dae1-684a-41d1-b397-7af7194fcbf7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName13}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1520" y="40" width="50" height="20" uuid="457f69b6-dc20-4092-aeba-33e352535c81"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1570" y="40" width="50" height="20" uuid="900c1220-78a0-4de4-8034-03bf38df9a08"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1620" y="20" width="100" height="20" uuid="ed63afcc-ad68-4079-899f-71b9a2d8e4db"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName14}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1620" y="40" width="50" height="20" uuid="209a38d3-468c-42e5-aa77-6307176fa6de"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1670" y="40" width="50" height="20" uuid="a1ef1943-db8f-438d-b882-5e9561f51675"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1720" y="20" width="100" height="20" uuid="df4de914-3aa8-4730-a54b-82599c45d13b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName15}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1720" y="40" width="50" height="20" uuid="a55f8ba8-a742-4ce8-bd7d-56a047c1c61c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1770" y="40" width="50" height="20" uuid="d9c0c4eb-76d2-4015-aa27-6a235041f98c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1820" y="20" width="100" height="20" uuid="62931c1f-2ce2-426e-b17e-8de298250111"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName16}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1820" y="40" width="50" height="20" uuid="5c79338e-4c00-4d3c-875a-148d708885ac"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1870" y="40" width="50" height="20" uuid="3cbde2af-b73a-4c76-8036-226cbadc5777"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="1920" y="20" width="100" height="20" uuid="8dff5cf8-f325-4751-ba68-d3ae15e17fb8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName17}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1920" y="40" width="50" height="20" uuid="a78c96d6-de9a-4b9b-8543-f55c6373fbdf"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="1970" y="40" width="50" height="20" uuid="da462b6c-3a9a-480b-a17c-0e0df17745f5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2020" y="20" width="100" height="20" uuid="c26e099f-d259-4854-a47f-1e33d5ec32dd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName18}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2020" y="40" width="50" height="20" uuid="f2739645-155e-469e-83a8-b353ff0d492b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2070" y="40" width="50" height="20" uuid="5dfddd75-79f7-45a5-837a-c31594e6388c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2120" y="20" width="100" height="20" uuid="98678b9b-3435-4e52-8d1f-d6c6efa4b582"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName19}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2120" y="40" width="50" height="20" uuid="270c6411-5001-4c53-b787-383a490bb330"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2170" y="40" width="50" height="20" uuid="1adcd2ac-987b-4ea1-86c9-6204130fbe2d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2220" y="20" width="100" height="20" uuid="992c7ce0-9896-45ea-be46-ea4f665ddfc1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName20}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2220" y="40" width="50" height="20" uuid="4ab789f4-2faa-4f0e-87f0-8563255c3bd8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2270" y="40" width="50" height="20" uuid="a7f05606-8cec-4f1d-92ed-59f86ca32bec"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2320" y="20" width="100" height="20" uuid="ba61129a-00ee-42a9-ab30-44654867ebf7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName21}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2320" y="40" width="50" height="20" uuid="79abe5ad-c289-4753-a0ba-63adae0f9f81"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2370" y="40" width="50" height="20" uuid="a8f3b772-5738-4529-b319-56875b13ed47"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2420" y="20" width="100" height="20" uuid="2d179370-60c4-4878-a41d-ab0e2a4d7c5e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName22}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2420" y="40" width="50" height="20" uuid="d7f2878b-10c7-4fca-8e9f-f0e378174046"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2470" y="40" width="50" height="20" uuid="306f4b05-38e6-4d88-8527-5fcc97c69dc6"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2520" y="20" width="100" height="20" uuid="6eb879e3-5663-40d2-9caa-91cccbdaefd8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName23}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2520" y="40" width="50" height="20" uuid="aa7cc4f0-0306-4d7e-adff-98b18258a270"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2570" y="40" width="50" height="20" uuid="6720390b-1c04-4eba-bfcd-d9f6f959b4ae"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2620" y="20" width="100" height="20" uuid="7d5af44f-eed5-4bba-a1bd-c27bad0d52b5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName24}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2620" y="40" width="50" height="20" uuid="a6963843-6968-4bb7-9e15-b8cff8ea380e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2670" y="40" width="50" height="20" uuid="449e8a76-969d-45fe-b0ab-38c5d4eee224"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2720" y="20" width="100" height="20" uuid="d23066a3-3f50-40d6-bbe8-5cdc6d507179"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName25}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2720" y="40" width="50" height="20" uuid="9ee4c5e1-8d40-46af-ac51-311cef780264"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2770" y="40" width="50" height="20" uuid="c8d34f79-6535-4ffc-ac4a-c81585942eea"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2820" y="20" width="100" height="20" uuid="b46d3bb0-1b7a-4650-acb5-692500d0ff90"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName26}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2820" y="40" width="50" height="20" uuid="56964bed-bcf8-4db7-b5ed-ce5f4f8e3c6c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2870" y="40" width="50" height="20" uuid="cb4202a7-34a6-4f81-aebd-d5f56a225419"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="2920" y="20" width="100" height="20" uuid="f9655114-36df-4f17-ae89-a1b821d4de96"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName27}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2920" y="40" width="50" height="20" uuid="e39acbf1-fd42-4121-9ab2-d14a0ce8e090"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="2970" y="40" width="50" height="20" uuid="59b5c6c9-860c-4834-b998-a625fd5c5c56"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3020" y="20" width="100" height="20" uuid="cbced6ca-4023-4fe5-a8d6-f441d3cf8921"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName28}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3020" y="40" width="50" height="20" uuid="b9ef297b-8938-4745-8001-14bbb6c196db"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3070" y="40" width="50" height="20" uuid="9e64e049-9d23-4a7e-968c-1bd6055225be"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3120" y="20" width="100" height="20" uuid="9b4ae453-26b8-4670-ab8a-86950aa33a6a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName29}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3120" y="40" width="50" height="20" uuid="e980f4fb-7910-4ff0-854c-e72e671be802"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3170" y="40" width="50" height="20" uuid="4c2d6ada-95c5-4780-853e-de1c3e2d66b7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3220" y="20" width="100" height="20" uuid="57be4225-77a6-45b7-b507-cf2c3b97bd1a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName30}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3220" y="40" width="50" height="20" uuid="76907185-06bd-419c-9973-37bf76f319ba"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3270" y="40" width="50" height="20" uuid="37aac443-e137-47f7-82e5-07459e1ee693"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3320" y="20" width="100" height="20" uuid="638aa417-0848-43fd-9e84-8e59894fca35"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName31}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3320" y="40" width="50" height="20" uuid="768f1b28-5edb-464a-9f3e-c54ff7763d54"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3370" y="40" width="50" height="20" uuid="f0570067-004f-4378-841e-b8218851eb27"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3420" y="20" width="100" height="20" uuid="12aad04c-5b4b-4ffe-9f9d-086df7b5c2b7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName32}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3420" y="40" width="50" height="20" uuid="d1519efc-2cf8-4150-bd05-10fe2f78586c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3470" y="40" width="50" height="20" uuid="2d27b3b2-6d4d-4b17-80f4-de14b7735119"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3520" y="20" width="100" height="20" uuid="9a5fb7df-318e-4f04-b856-c5d6f80c97e8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName33}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3520" y="40" width="50" height="20" uuid="46385e70-8077-4ca3-9511-3961b9dc0757"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3570" y="40" width="50" height="20" uuid="08cb9c02-375f-4004-a245-2e97025ef1ae"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3620" y="20" width="100" height="20" uuid="ab544ebb-6e28-451d-b8ef-12e1edc98725"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName34}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3620" y="40" width="50" height="20" uuid="1ecf3140-9b25-4bd2-9f79-9e5c2c021049"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3670" y="40" width="50" height="20" uuid="a3be341c-48ad-4cbf-8ee5-b21fdc13943b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3720" y="20" width="100" height="20" uuid="03fb5d7a-0a1d-429f-abbb-abb9ae3fd51a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName35}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3720" y="40" width="50" height="20" uuid="a94f5f6f-9e00-4d78-ad14-b753cb0073fb"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3770" y="40" width="50" height="20" uuid="cd867f45-d1d1-4c93-81ff-136aad36e58f"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3820" y="20" width="100" height="20" uuid="c5966f24-42c5-4146-a351-80e72dfe0f97"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName36}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3820" y="40" width="50" height="20" uuid="c92e34ff-045b-419e-9386-1fe5860c42cd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3870" y="40" width="50" height="20" uuid="0dd694dc-b421-4fa6-9a85-0c685202430d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="3920" y="20" width="100" height="20" uuid="0cdb4c78-2b55-4255-bc73-fe759027f1cd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName37}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3920" y="40" width="50" height="20" uuid="7fc34304-a995-4efc-a67d-ff6e140382e2"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="3970" y="40" width="50" height="20" uuid="349b4b18-3f59-4145-9c24-2024bef6bb44"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4020" y="20" width="100" height="20" uuid="a370bd64-c37f-45c4-83e5-80117861b791"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName38}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4020" y="40" width="50" height="20" uuid="f0838010-fe9b-41aa-bd55-470325ad2b6e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4070" y="40" width="50" height="20" uuid="b6530007-46b9-4d63-ae45-4eecff6ab86c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4120" y="20" width="100" height="20" uuid="076a386f-b04a-4fa9-a076-bd405f2b2217"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName39}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4120" y="40" width="50" height="20" uuid="493ab224-416e-46c1-ac34-4871cfc635a0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4170" y="40" width="50" height="20" uuid="131e2c54-8eb2-4515-a825-49e7cabe7007"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4220" y="20" width="100" height="20" uuid="e4306b3c-f93f-4981-81d9-78cafd170b98"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName40}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4220" y="40" width="50" height="20" uuid="48e7e935-0cc4-468b-96fc-bde6ee362655"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4270" y="40" width="50" height="20" uuid="6cdf6149-fcfd-4953-a73d-1f79d598395c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4320" y="20" width="100" height="20" uuid="4efa1e3e-a48c-4216-88d3-6245653a3ff0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName41}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4320" y="40" width="50" height="20" uuid="b422f711-3e44-4d4b-941e-fdd820eea664"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4370" y="40" width="50" height="20" uuid="2db090f2-2270-4774-9f5b-70a75e142d2d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4420" y="20" width="100" height="20" uuid="f1dce1da-b469-4dbf-8160-a01cfcae0706"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName42}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4420" y="40" width="50" height="20" uuid="ebf6df91-98b3-4377-83f8-fbaaae2b0af3"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4470" y="40" width="50" height="20" uuid="901adead-9c38-4f4f-b8ed-5bfde45c433f"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4520" y="20" width="100" height="20" uuid="5f0854ae-9e46-448e-ae80-d14cc26986c5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName43}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4520" y="40" width="50" height="20" uuid="bd4944b5-57a0-42c4-b0b2-263827a6cf63"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4570" y="40" width="50" height="20" uuid="009f113e-9d4f-42c5-930f-4b04bb80e891"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4620" y="20" width="100" height="20" uuid="ad32bbe4-0242-43c6-9bba-85d8b17e81b9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName44}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4620" y="40" width="50" height="20" uuid="7e4b974c-5447-45fb-aa08-39779267baf1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4670" y="40" width="50" height="20" uuid="7fda15ee-4a46-4dc7-870b-315fcf76dad7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4720" y="20" width="100" height="20" uuid="ac01917e-673b-4688-b5ab-cd1ac1579bdf"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName45}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4720" y="40" width="50" height="20" uuid="f2ffd176-4f08-4c70-86a3-6dc8ce19c5e7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4770" y="40" width="50" height="20" uuid="b3066d36-1aa1-464d-a06a-8f0b04042f3b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4820" y="20" width="100" height="20" uuid="c4a3395a-4476-4270-92d7-d0173d2fcaa4"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName46}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4820" y="40" width="50" height="20" uuid="99550317-14d7-4bb2-8b18-5c7bc372cf86"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4870" y="40" width="50" height="20" uuid="bdf9c84d-9178-4d84-865f-fde9e9d67483"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="4920" y="20" width="100" height="20" uuid="a7fd1f6b-3b57-4bc4-b422-bcde3e701785"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName47}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4920" y="40" width="50" height="20" uuid="2ee01c66-5a14-4caf-9747-44ac0471a52a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="4970" y="40" width="50" height="20" uuid="b59fb25a-7cc3-4e44-9c69-e15aa306c594"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5020" y="20" width="100" height="20" uuid="5727d05b-1e3b-4b60-8372-53b3bf28a6dd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName48}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5020" y="40" width="50" height="20" uuid="f1c0df7f-a705-4390-a5e8-6d582b455dae"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5070" y="40" width="50" height="20" uuid="f03635ca-b413-4421-a573-12dd6ee9f61c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5120" y="20" width="100" height="20" uuid="ca09ad22-dc97-43c9-98d2-dce8d8849b9e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName49}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5120" y="40" width="50" height="20" uuid="5b014b92-8b92-4268-957a-b5d5c510d10c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5170" y="40" width="50" height="20" uuid="9bd72076-b11c-4572-ab44-954b22f626a9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5220" y="20" width="100" height="20" uuid="46fe456e-cc60-4cdd-aa5d-c05a2d99f802"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName50}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5220" y="40" width="50" height="20" uuid="a10fbfe2-7e49-4827-a01f-1bfa4729eac5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5270" y="40" width="50" height="20" uuid="71b04ff3-0598-4169-9a79-bb98bba92957"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5320" y="20" width="100" height="20" uuid="5c672224-6ce4-4825-ac51-81dd021ad1ce"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName51}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5320" y="40" width="50" height="20" uuid="838f12dd-6a00-4735-90f7-bad196555b14"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5370" y="40" width="50" height="20" uuid="c052446e-c668-4157-be29-75aff7521bd0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5420" y="20" width="100" height="20" uuid="85f340ef-76d3-474c-ba02-dce9cb081a22"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName52}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5420" y="40" width="50" height="20" uuid="841bd734-cd4b-4776-b0af-75d873f46a21"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5470" y="40" width="50" height="20" uuid="eca70cd8-132f-4299-9194-ffde9e114709"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5520" y="20" width="100" height="20" uuid="fab4dc08-9da4-43af-80c3-2338feb648c6"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName53}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5520" y="40" width="50" height="20" uuid="b2639813-6830-4b43-b36a-b8b79a7ede81"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5570" y="40" width="50" height="20" uuid="13236de0-d5a4-49af-9266-16fff0320aea"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5620" y="20" width="100" height="20" uuid="c57f55d9-3144-4ee0-b297-9dad8682de6a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName54}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5620" y="40" width="50" height="20" uuid="26586767-5389-4af2-ae76-ef11c801a017"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5670" y="40" width="50" height="20" uuid="fe6ef27a-3687-4492-83bf-98ba3888f147"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5720" y="20" width="100" height="20" uuid="08e6914e-14a6-47ff-a040-207ca8e6fbde"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName55}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5720" y="40" width="50" height="20" uuid="3f772fe2-0ee5-4a27-b0ea-d828e711a698"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5770" y="40" width="50" height="20" uuid="5cb03526-0992-429b-8538-0bab49959ad1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5820" y="20" width="100" height="20" uuid="e38075c0-1bde-4e39-9ecb-1e552726f63f"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName56}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5820" y="40" width="50" height="20" uuid="2d22c19b-8909-4e7b-8d3a-ef4761550cf9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5870" y="40" width="50" height="20" uuid="77717737-9339-49b6-b698-157c37916efc"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="5920" y="20" width="100" height="20" uuid="a6be8cbf-02b0-477d-a4b1-2892647e2c80"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName57}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5920" y="40" width="50" height="20" uuid="4cd8039e-2c7f-4ebb-939b-ac272fe519ea"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="5970" y="40" width="50" height="20" uuid="dc0cd9a9-8331-4e5d-a4ee-c4a005599ba1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6020" y="20" width="100" height="20" uuid="41a93d8d-b9e9-41d9-b56b-8b5ad23e127a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName58}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6020" y="40" width="50" height="20" uuid="b6617871-9cc4-47e5-96e3-e49db0999d12"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6070" y="40" width="50" height="20" uuid="1b13446f-7f82-42db-8aa6-643e2c82acbd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6120" y="20" width="100" height="20" uuid="4aa329fb-9912-4c26-bc90-e0c9758e824b"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName59}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6120" y="40" width="50" height="20" uuid="810344b4-d44a-4ea8-a31f-c6fff7c12af4"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6170" y="40" width="50" height="20" uuid="d5fcbb73-9885-4b8c-907c-ecf7765ac7fd"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6220" y="20" width="100" height="20" uuid="b2cdf26d-0faa-455d-ad95-b2111dcb21f4"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName60}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6220" y="40" width="50" height="20" uuid="e1161794-5c09-4104-89d4-c0ad3080556a"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6270" y="40" width="50" height="20" uuid="88e09e20-5024-4c3d-8693-f1312ff3c8cc"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6320" y="20" width="100" height="20" uuid="c6d9a490-22ec-47ed-be3c-0b4c3f1ce376"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName61}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6320" y="40" width="50" height="20" uuid="7b89eab3-1a97-43eb-bdd0-084d5e2927b7"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6370" y="40" width="50" height="20" uuid="ffcc5f7a-79f4-48aa-b21c-2f9f81e2dc4c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6420" y="20" width="100" height="20" uuid="f5755438-5991-407d-a773-38389301e097"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName62}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6420" y="40" width="50" height="20" uuid="f974190c-6a82-452a-81a6-dd4aa3b7a2a9"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6470" y="40" width="50" height="20" uuid="d7ecf721-0440-4df5-9645-d67424b72be8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6520" y="20" width="100" height="20" uuid="0fdabe94-20c7-411f-986e-cffb31326f6c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName63}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6520" y="40" width="50" height="20" uuid="06ad06b4-2f19-484e-9dc2-7a7ad7933093"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6570" y="40" width="50" height="20" uuid="9edc5fd3-c031-4131-ac4b-51ddd1ee4750"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6620" y="20" width="100" height="20" uuid="f666a728-9c26-4081-96b4-c75093bedd59"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName64}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6620" y="40" width="50" height="20" uuid="74619309-dcbf-431a-ae3d-b12ec5e7765d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6670" y="40" width="50" height="20" uuid="3e392230-68a9-43f4-abfb-7f33efdd21ca"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6720" y="20" width="100" height="20" uuid="87ecf03c-a1e2-4fc1-8624-c938c5921436"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName65}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6720" y="40" width="50" height="20" uuid="38469c44-0440-45a3-995e-12fba856e8ca"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6770" y="40" width="50" height="20" uuid="b9ae7442-d689-43cb-b0ce-84af0b498cf1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6820" y="20" width="100" height="20" uuid="24c97bf9-8e07-4bf4-86c6-87c56f15f126"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName66}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6820" y="40" width="50" height="20" uuid="443f5a5a-9793-4ec5-ad0e-01032733b08f"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6870" y="40" width="50" height="20" uuid="527b2608-69b6-4272-a37f-4cb48434985e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="6920" y="20" width="100" height="20" uuid="cc0396a2-585d-48eb-ab49-c132e77bc6f6"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName67}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6920" y="40" width="50" height="20" uuid="75795275-5a53-46e5-bddf-d1a21375dcaa"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="6970" y="40" width="50" height="20" uuid="07c604da-ba2c-49f2-8caf-5111005eda8d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7020" y="20" width="100" height="20" uuid="fafe4aff-1e39-49d8-a334-ec923675796e"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName68}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7020" y="40" width="50" height="20" uuid="eeaff1a5-e771-4aaa-8b04-00181a8db7d8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7070" y="40" width="50" height="20" uuid="d3c3b025-976a-4769-be8c-f6269b74325d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7120" y="20" width="100" height="20" uuid="5666f956-641e-4866-a2b4-66004f7f4634"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName69}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7120" y="40" width="50" height="20" uuid="c0fe24cb-9c11-4e30-ae7c-82d825754ae5"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7170" y="40" width="50" height="20" uuid="6e1eb029-33dc-40f9-8d1c-1609775dd897"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7220" y="20" width="100" height="20" uuid="bc9868d5-bb42-484c-bef0-f5abcd68cb34"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName70}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7220" y="40" width="50" height="20" uuid="f8d2bbdf-65c5-46e5-a849-ff389a0ac0cf"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7270" y="40" width="50" height="20" uuid="d4c8a304-9249-4dbd-b8ff-be95111ec48c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7320" y="20" width="100" height="20" uuid="05dabdc3-dd42-426b-89ce-2fae98b7100f"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName71}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7320" y="40" width="50" height="20" uuid="d2c660dd-5b27-4e89-b14f-fdc3ffd309b0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7370" y="40" width="50" height="20" uuid="978022fc-1920-4d17-8637-0bd25f4ba506"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7420" y="20" width="100" height="20" uuid="56ccf3f8-2d9a-423a-a948-96a0f2b435f1"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName72}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7420" y="40" width="50" height="20" uuid="5f958d34-fa42-4238-99d1-34fbe54014f6"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7470" y="40" width="50" height="20" uuid="e12c1985-181c-4abb-88b0-c3eef711f5ef"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7520" y="20" width="100" height="20" uuid="5435d92e-ed76-405b-a493-7b4ff1f1f20d"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName73}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7520" y="40" width="50" height="20" uuid="98fa8073-3bfa-4f43-82d5-7d8bba1a93df"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7570" y="40" width="50" height="20" uuid="1aa5060d-ac70-4283-b2c5-741b2c6ee6ec"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7620" y="20" width="100" height="20" uuid="97bdcf91-0205-4935-8f5c-183f808bac1c"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName74}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7620" y="40" width="50" height="20" uuid="76625768-880d-45c8-89a7-5eacdb2d8f07"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7670" y="40" width="50" height="20" uuid="896b6924-422c-4d85-b113-3fe9e79185a0"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>
+
+<textField textAdjust="ScaleFont" isBlankWhenNull="true" >
+    <reportElement x="7720" y="20" width="100" height="20" uuid="ac05da7c-d98d-460d-b3c4-d3fdbaca0304"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA[$F{orderTypeName75}]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7720" y="40" width="50" height="20" uuid="c9632f2c-ca92-4281-9e81-42ecf677b760"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["จำนวนเงิน"]]></textFieldExpression>
+</textField>
+
+<textField>
+    <reportElement x="7770" y="40" width="50" height="20" uuid="49810249-b7ca-4bdd-b20f-ec300f56d0a8"/>
+    <box>
+        <pen lineWidth="0.25"/>
+        <topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+        <rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+    </box>
+    <textElement textAlignment="Center" verticalAlignment="Middle">
+        <font fontName="TH SarabunPSK"/>
+        <paragraph leftIndent="5" rightIndent="5"/>
+    </textElement>
+    <textFieldExpression><![CDATA["ภาษี"]]></textFieldExpression>
+</textField>

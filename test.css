@@ -1,0 +1,17 @@
+/* CSS */
+.card__title {
+  font-size: 20px;
+}
+.card__title--highlight {
+  color: red;
+}
+
+/* CSS */
+#main-title {
+  color: blue;
+  font-size: 28px;
+}
+.subtitle {
+  color: gray;
+  font-style: italic;
+}
