@@ -860,8 +860,11 @@ import random
 # def add_subject(name,subject,score):
 #     Student[name][subject] = score
 
-print("hello world")
-print("hello world")
+print("hello world") #ก็อยากเพิ่มนี่นา
+
+
+for i in range(0,10):
+    print(f"{i} hello world")
 
 # add_student("Atom")
 # add_subject("Atom","Math",50)
